@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar codigo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Esteban-Developer/jenkins-php.git'
+                git branch: 'main', url: 'https://github.com/Esteban-Developer/jenkins-php2.git'
                 echo 'Codigo clonado'
             }
         }
